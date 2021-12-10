@@ -1,0 +1,205 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #552a69;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Menu e Botões */
+
+header{ 
+    background-color: black;
+    position: fixed ;
+    top: 0%;
+    width: 100%;
+    padding: 10px;
+}
+
+header img{
+    position: absolute;
+    width: 240px;
+    height: 87px;   
+    left: 123px;
+    top: 8px;
+    cursor: pointer;
+}
+
+#menu{
+    line-height: 40px;
+    list-style-type: none;
+    padding: 0;
+    text-align: end;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#menu ul li{
+    display: inline ;
+
+    
+}
+
+#menu li a{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    
+}
+#menu li a:hover{
+    background-color: #521f6a;
+
+}
+
+
+/* Produto  */
+.produto h2{
+    font-size: 65px;
+    color: white;
+}
+.produto p{
+    font-size: medium;
+    color: white;
+    font-family: Arial;
+}
+.produto{
+    height: 50px;
+    margin-top: 15%;
+    margin-left: 900px;
+}
+
+
+/* Botão */
+span{
+    color: white;
+    font-size: 12px;
+    height: 1rem;
+    margin-top: 50px;
+    margin-right: 50px;
+    padding: 5% 8%;
+    text-decoration: none;
+    line-height: 16px;
+    background-color:#360C39;
+    border-radius: 8px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border: black 1px solid;
+    
+}
+
+span a{
+    color:  white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+span:hover{
+    background-color:  #521f6a;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+/* gif */
+
+.gif img{
+    height: 520px;
+    width: 810px;
+    margin-top: -15% ;
+}
+
+
+
+/* formas de pagamento */
+
+.fundo-preto{
+    background-color:#202020;
+}
+.formas-pagamento{
+    margin-top: -4px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-right: 160px;
+    
+}
+.formas-pagamento h3{
+  
+    line-height: 25px;
+    margin-left: 175px;
+    padding: 5px;
+    font-size: 18px;
+    
+}
+.formas-pagamento p{
+
+    line-height: 25px;
+    margin-left: 175px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+/* formas de pagamento */
+
+/* conheça hylander */
+   
+.texto-centralizado{
+    text-align: center;
+    padding: 70px;
+   
+   
+}
+hr{
+    margin-bottom: 20px;
+    border: 2px solid white;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 576px;
+
+}
+
+.display {
+    display: grid;
+   
+}
+.button{
+    padding: 20px 50px;
+    margin-top: -500px;
+    margin-left: 50px;
+}
+
+/* footer */
+
+.footer{
+    font-size: 9px;
+    background-color: black;
+    padding: 10px 0;
+}
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
